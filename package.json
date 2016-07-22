@@ -1,0 +1,22 @@
+{
+  "name": "up2date",
+  "version": "1.0.0",
+  "description": "slabs updat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesperancinha/up2date.git"
+  },
+  "author": "up2date team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesperancinha/up2date/issues"
+  },
+  "homepage": "https://github.com/jesperancinha/up2date#readme",
+  "dependencies": {
+    "slackbots": "^0.5.1"
+  }
+}

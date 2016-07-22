@@ -22,6 +22,9 @@
   "homepage": "https://github.com/jesperancinha/up2date#readme",
   "dependencies": {
     "async": "^2.0.0",
+    "i": "^0.3.5",
+    "node-rest-client": "^2.0.1",
+    "parse-json": "^2.2.0",
     "progress": "^1.1.8",
     "request": "^2.73.0",
     "slackbots": "^0.5.1"

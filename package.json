@@ -2,9 +2,13 @@
   "name": "up2date",
   "version": "1.0.0",
   "description": "slabs updat bot",
-  "main": "index.js",
+  "main": "lib/up2datebot.js",
+  "bin": {
+    "up2bot": "bin/bot.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/bot.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,9 @@
   },
   "homepage": "https://github.com/jesperancinha/up2date#readme",
   "dependencies": {
+    "async": "^2.0.0",
+    "progress": "^1.1.8",
+    "request": "^2.73.0",
     "slackbots": "^0.5.1"
   }
 }

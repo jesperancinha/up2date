@@ -39,4 +39,5 @@ jspm_packages
 # Intellij
 *.iml
 .idea
-token
+token.js
+

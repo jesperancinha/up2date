@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 'use strict';
 
 var Up2DateBot = require('../lib/up2datebot');
